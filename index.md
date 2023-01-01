@@ -41,10 +41,10 @@ conducting analysis on large data sets?</li>
 {: .text-justify}
 
 ## Instructors
-Sambit Sahu\\
+Sambit Sahu
 
 ## Location and Time
-Sambit Sahu - TBD
+TBD
 
 ## TAs
 OH TBD
@@ -98,4 +98,4 @@ TBD
 ## Course Materials
 No textbook.
 
-<p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}.</a></p>
+<p>This website is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}.</a></p>
