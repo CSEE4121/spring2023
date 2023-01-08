@@ -50,13 +50,13 @@ TBD
 OH TBD
 <table>
   <tr>
-    <td>Tal Zussman</td>
+    <td>Tal Zussman (Head TA)</td>
     <td>Elisa Luo</td>
   </tr>
 </table> 
 
 ## Ed
-TBD
+Link TBD
 
 ## Prerequisites
 Students are expected to have solid programming experience in Python or with an
@@ -65,7 +65,7 @@ data scientists who do not necessarily have a background in databases, operating
 systems or distributed systems.
 
 ## Syllabus
-TBD
+Link TBD
 
 ## Schedule (this is a work in progress, and is likely to change)
 <table>
@@ -82,18 +82,111 @@ TBD
 </tr>
 </thead>
 <tbody>
-
+<tr>
+<td markdown="span">1</td>
+<td markdown="span">Introduction (<a href="https://www.dropbox.com/s/evzk4lv8hh9sxt5/Topic%201%20-%20intro%20and%20rules%20of%20thumb.pdf?dl=0">Slides</a>)</td>
+<th></th>
+</tr>
+<tr>
+<td markdown="span">2</td>
+<td markdown="span">Relational Data Model (<a href="https://www.dropbox.com/s/z1vvm34hhwq1csj/Topic%202%20-%20relational%20model.pdf?dl=0">Slides</a>)</td>
+<th markdown="1">[Programming Homework 1 released (February 1, 2022)](Link TBD)</th>
+</tr>
+<tr>
+<td markdown="span">3</td>
+<td markdown="span">Relational Data Model</td>
+<th></th>
+</tr>
+<tr>
+<td markdown="span">4</td>
+<td markdown="span">Transactions and Logging (<a href="https://www.dropbox.com/s/oajai8bm781wiv0/Topic%203%20-%20transactions%20and%20ACID.pdf?dl=0">Slides</a>)</td>
+<th markdown="1">Written Homework 1 released (Link TBD)</th>
+</tr>
+<tr>
+<td markdown="span">5</td>
+<td markdown="span">Storage/memory hierarchy (<a href="https://www.dropbox.com/s/aiy5rlmuz8xcpwd/Topic%204%20-%20single%20DB%20architecture.pdf?dl=0">Slides</a>)</td>
+<th></th>
+</tr>
+<tr>
+<td markdown="span">6</td>
+<td markdown="span"> Indices and bloom filters</td>
+<th markdown="1">Programming Homework 1 due (February 25, 2022 4:59:59PM)</th>
+</tr>
+<tr>
+<td markdown="span">7</td>
+<td markdown="span">Distributed file systems (<a href="https://www.dropbox.com/s/q3hloco1elfgek9/Topic%205%20-%20Distributed%20File%20Systems%20and%20Databases.pdf?dl=0">Slides</a>)</td>
+<th markdown="1">Written Homework 1 due (March 6, 2022 4:59:59PM)</th>
+<th></th>
+</tr>
+<tr>
+<td markdown="span">8</td>
+<td markdown="span">Midterm (all material up to Topic 4, not including RocksDB)</td>
+<th></th>
+</tr>
+<tr>
+<td markdown="span">9</td>
+<td markdown="span">Spring Break</td>
+<th></th>
+</tr>
+<tr>
+<td markdown="span">10</td>
+<td markdown="span">MapReduce and stragglers (<a href="https://www.dropbox.com/s/o5uwaa3fo8tv9ch/Topic%206%20-%20MapReduce%20and%20Spark.pdf?dl=0">Slides</a>)</td>
+<th></th>
+</tr>
+<tr>
+<td markdown="span">11</td>
+<td markdown="span">Spark and distributed analytics</td>
+<th markdown="1">Programming Homework 2 released (Link TBD)</th>
+</tr>
+<tr>
+<td markdown="span">12</td>
+<td markdown="span">Caching (<a href="https://www.dropbox.com/s/5sggarpl2kx1oxn/Topic%207%20-%20Caching.pdf?dl=0">Slides</a>)</td>
+<th></th>
+</tr>
+<tr>
+<td markdown="span">13</td>
+<td markdown="span">Machine Learning (<a href="https://www.dropbox.com/s/ub35qceqpbo7c31/Topic%208%20-%20Systems%20for%20Machine%20Learning.pdf?dl=0">Slides</a>)</td>
+<th markdown="1">Written Homework 2 out</th>
+<th></th>
+</tr>
+<tr>
+<td markdown="span">14</td>
+<td markdown="span">Security (<a href="https://www.dropbox.com/s/9rz9n9gvhw2iajq/Topic%209%20-%20Data%20Security%20and%20Compliance.pdf?dl=0">Slides</a>)</td>
+<th></th>
+</tr>
+<tr>
+<td markdown="span">15</td>
+<td markdown="span">Data Quality and Review</td>
+<th markdown="1">Programming Homework 2 due, Written Homework 2 due(April 29, 2022 4:59:59PM)</th>
+</tr>
+<tr>
+<td markdown="span">16</td>
+<td markdown="span">Final Exam: May 6</td>
+<th></th>
+</tr>
 </tbody>
 </table>
 
 ## Grade Breakdown
-TBD
+20% Programming Homework 1 \\
+10% Written Homework 1 \\
+20% Programming Homework 2 \\
+10% Written Homework 2 \\
+15% Midterm \\
+25% Final
 
 ## Late Submission Policy
-TBD
+Each student will have a total of 3 late days for the entire semester. After all
+late days are used, there will be a 5% penalty for submission within 24 hrs of
+the deadline, 10% penalty for submission within 48hrs of the deadline and 20%
+penalty for submission within 72 hrs of the deadline. No submissions will be
+accepted after 72 hrs from the deadline.
 
 ## Collaboration/Copying Policy
-TBD
+Programming assignment 1 and the written assignments will be done alone.
+Programming assignment 2 will be done in pairs. You may not copy answers and
+code. We will enforce this policy when checking the assignments (we use a code
+similarity system).
 
 ## Course Materials
 No textbook.
