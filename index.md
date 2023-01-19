@@ -43,6 +43,8 @@ conducting analysis on large data sets?</li>
 ## Instructors
 Sambit Sahu
 
+ss3876@columbia.edu
+
 ## Location and Time
 TBD
 
@@ -88,7 +90,7 @@ Link TBD
 <tbody>
 <tr>
 <td markdown="span">1</td>
-<td markdown="span">Introduction (<a href="https://www.dropbox.com/s/evzk4lv8hh9sxt5/Topic%201%20-%20intro%20and%20rules%20of%20thumb.pdf?dl=0">Slides</a>)</td>
+<td markdown="span">Introduction (<a href="https://www.dropbox.com/s/rwldn1yysrjle8f/Topic%201%20-%20intro%20and%20rules%20of%20thumb-%202023.pdf?dl=0 ">Slides</a>)</td>
 <th></th>
 </tr>
 <tr>
