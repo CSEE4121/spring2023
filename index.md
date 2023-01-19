@@ -46,7 +46,7 @@ Sambit Sahu
 ss3876@columbia.edu
 
 ## Location and Time
-TBD
+CEPSR (Shapiro Building) 7W51 Thursday 6:00pm-6:50pm
 
 ## TAs
 OH TBD
@@ -96,7 +96,7 @@ Link TBD
 <tr>
 <td markdown="span">2</td>
 <td markdown="span">Relational Data Model (<a href="https://www.dropbox.com/s/z1vvm34hhwq1csj/Topic%202%20-%20relational%20model.pdf?dl=0">Slides</a>)</td>
-<th markdown="1">[Programming Homework 1 released (February 1, 2022)](Link TBD)</th>
+<th markdown="1">[Programming Homework 1 released (January 26, 2023)](Link TBD)</th>
 </tr>
 <tr>
 <td markdown="span">3</td>
@@ -116,7 +116,7 @@ Link TBD
 <tr>
 <td markdown="span">6</td>
 <td markdown="span"> Indices and bloom filters</td>
-<th markdown="1">Programming Homework 1 due (February 25, 2022 4:59:59PM)</th>
+<th markdown="1">Programming Homework 1 due (February 23, 2023 4:59:59PM)</th>
 </tr>
 <tr>
 <td markdown="span">7</td>
@@ -163,7 +163,7 @@ Link TBD
 <tr>
 <td markdown="span">15</td>
 <td markdown="span">Data Quality and Review</td>
-<th markdown="1">Programming Homework 2 due, Written Homework 2 due(April 29, 2022 4:59:59PM)</th>
+<th markdown="1">Programming Homework 2 due, Written Homework 2 due(April 27, 2023 4:59:59PM)</th>
 </tr>
 <tr>
 <td markdown="span">16</td>
@@ -197,4 +197,3 @@ similarity system).
 ## Course Materials
 No textbook.
 
-<p>This website is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}.</a></p>
