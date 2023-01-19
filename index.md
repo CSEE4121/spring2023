@@ -53,6 +53,9 @@ OH TBD
     <td>Tal Zussman (Head TA)</td>
     <td>Elisa Luo</td>
   </tr>
+  <tr>
+    <td> Wei Hao</td>
+    <td>Haoyu Li</td>
 </table> 
 
 ## Ed
