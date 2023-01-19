@@ -40,13 +40,10 @@ conducting analysis on large data sets?</li>
 </ul>
 {: .text-justify}
 
-## Instructors
-Sambit Sahu
+## Instructor
+Sambit Sahu - ss3876@columbia.edu
 
-ss3876@columbia.edu
-
-## Location and Time
-CEPSR (Shapiro Building) 7W51 Thursday 6:00pm-6:50pm
+OH: CEPSR (Schapiro Building) 7W51 Thursday 6:00pm-6:50pm
 
 ## TAs
 OH TBD
@@ -56,13 +53,13 @@ OH TBD
     <td>Elisa Luo</td>
   </tr>
   <tr>
-    <td> Wei Hao</td>
+    <td>Wei Hao</td>
     <td>Haoyu Li</td>
   </tr>
 </table> 
 
 ## Ed
-Link TBD
+https://edstem.org/us/courses/35294/discussion/
 
 ## Prerequisites
 Students are expected to have solid programming experience in Python or with an
@@ -90,7 +87,7 @@ Link TBD
 <tbody>
 <tr>
 <td markdown="span">1</td>
-<td markdown="span">Introduction (<a href="https://www.dropbox.com/s/rwldn1yysrjle8f/Topic%201%20-%20intro%20and%20rules%20of%20thumb-%202023.pdf?dl=0 ">Slides</a>)</td>
+<td markdown="span">Introduction (<a href="https://www.dropbox.com/s/rwldn1yysrjle8f/Topic%201%20-%20intro%20and%20rules%20of%20thumb-%202023.pdf?dl=0">Slides</a>)</td>
 <th></th>
 </tr>
 <tr>
@@ -163,7 +160,7 @@ Link TBD
 <tr>
 <td markdown="span">15</td>
 <td markdown="span">Data Quality and Review</td>
-<th markdown="1">Programming Homework 2 due, Written Homework 2 due(April 27, 2023 4:59:59PM)</th>
+<th markdown="1">Programming Homework 2 due, Written Homework 2 due (April 27, 2023 4:59:59PM)</th>
 </tr>
 <tr>
 <td markdown="span">16</td>
