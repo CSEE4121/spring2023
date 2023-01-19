@@ -167,7 +167,7 @@ Link TBD
 </tr>
 <tr>
 <td markdown="span">16</td>
-<td markdown="span">Final Exam: May 6</td>
+<td markdown="span">Final Exam: May 4</td>
 <th></th>
 </tr>
 </tbody>
