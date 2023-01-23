@@ -56,10 +56,13 @@ OH TBD
     <td>Wei Hao</td>
     <td>Haoyu Li</td>
   </tr>
+  <tr>
+    <td>Maÿlis Whetsel</td>
+  </tr>
 </table> 
 
 ## Ed
-https://edstem.org/us/courses/35294/discussion/
+[Link](https://edstem.org/us/courses/35294/discussion/)
 
 ## Prerequisites
 Students are expected to have solid programming experience in Python or with an
