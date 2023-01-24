@@ -46,18 +46,19 @@ Sambit Sahu - ss3876@columbia.edu
 OH: CEPSR (Schapiro Building) 7W51 Thursday 6:00pm-6:50pm
 
 ## TAs
-OH TBD
+[OH Calendar](https://calendar.google.com/calendar/u/0/embed?src=c_cd34b309dbe3126f513b87e9c29d50873242a639550137021c720fcf3909c267@group.calendar.google.com&ctz=America/New_York)
+
 <table>
   <tr>
-    <td>Tal Zussman (Head TA)</td>
-    <td>Elisa Luo</td>
+    <td>Tal Zussman (Head TA) - tz2294@columbia.edu</td>
+    <td>Elisa Luo - eyl2130@columbia.edu</td>
   </tr>
   <tr>
-    <td>Wei Hao</td>
-    <td>Haoyu Li</td>
+    <td>Wei Hao - wh2473@columbia.edu</td>
+    <td>Haoyu Li - haoyu.li@columbia.edu</td>
   </tr>
   <tr>
-    <td>Maÿlis Whetsel</td>
+    <td>Maÿlis Whetsel - mw3391@columbia.edu</td>
   </tr>
 </table> 
 
