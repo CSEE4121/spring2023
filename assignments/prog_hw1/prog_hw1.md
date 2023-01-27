@@ -508,8 +508,8 @@ final submission.
 
 **Handling Ties**: You may have noticed that in case of ties (between two
 records of the ordering column), BigQuery may produce either of the orderings.
-Do not worry about this. We have configured the autograder to handle ties and
-grade accordingly.
+Make sure to follow the tiebreaker criteria specified in each part. You will
+recieve no credit for incorrect output due to mishandled ties.
 
 You will not see a final grade until after the project deadline. It is your
 responsibility to ensure that your final submission is free of Python or SQL
