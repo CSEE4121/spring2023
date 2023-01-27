@@ -2,7 +2,7 @@
 
 Gain a hands-on understanding of Google BigQuery and SQL.
 
-Due: **TBD**
+Due: **February 23, 2023 at 4:59:59 PM**
 
 ## Overview
 
