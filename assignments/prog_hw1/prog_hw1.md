@@ -40,7 +40,7 @@ your account so that you can query the StackOverflow dataset.
 
    ![Fill Info](./pics/fillProjectInfo.jpeg)
 
-   If you mess this up and select the wrong billing account, plesae follow these
+   If you mess this up and select the wrong billing account, please follow these
    [instructions](https://cloud.google.com/billing/docs/how-to/modify-project#to_change_the_projects_account_do_the_following)
    to change the billing account for your project to the billing account created
    in Step 1.
