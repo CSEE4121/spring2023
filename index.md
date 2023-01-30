@@ -71,9 +71,6 @@ equivalent programming language. This class is intended to be accessible for
 data scientists who do not necessarily have a background in databases, operating
 systems or distributed systems.
 
-## Syllabus
-Link TBD
-
 ## Schedule (this is a work in progress, and is likely to change)
 <table>
 <colgroup>
