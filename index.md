@@ -59,6 +59,10 @@ OH: CEPSR (Schapiro Building) 7W51 Thursday 6:00pm-6:50pm
   </tr>
   <tr>
     <td>Maÿlis Whetsel - mw3391@columbia.edu</td>
+    <td>Sai Teja Reddy Moolamalla - saitejareddy.m@columbia.edu</td>
+  </tr>
+  <tr>
+    <td>Yunlan Li - yl4387@columbia.edu</td>
   </tr>
 </table> 
 
