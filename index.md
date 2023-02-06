@@ -108,12 +108,12 @@ systems or distributed systems.
 <tr>
 <td markdown="span">4</td>
 <td markdown="span">Transactions and Logging (<a href="https://www.dropbox.com/s/oajai8bm781wiv0/Topic%203%20-%20transactions%20and%20ACID.pdf?dl=0">Slides</a>)</td>
-<th markdown="1">Written Homework 1 released (Link TBD)</th>
+<th></th>
 </tr>
 <tr>
 <td markdown="span">5</td>
 <td markdown="span">Storage/memory hierarchy (<a href="https://www.dropbox.com/s/aiy5rlmuz8xcpwd/Topic%204%20-%20single%20DB%20architecture.pdf?dl=0">Slides</a>)</td>
-<th></th>
+<th markdown="1">Written Homework 1 released (February 16, 2023) (Link TBD)</th>
 </tr>
 <tr>
 <td markdown="span">6</td>
