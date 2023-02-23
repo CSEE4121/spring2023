@@ -123,9 +123,7 @@ let’s get to work and answer some questions about the StackOverflow dataset!
 You will be asked to submit a CSV file containing the results of your queries
 for each question. You can download the results of a query using the
 `SAVE RESULTS` button in the `Query results` panel and choose to save the CSV
-as a local file. We will provide the column names for the expected output. You
-can name your columns whatever you want, as long as the content matches both in
-ordering and in values.
+as a local file. We will provide the column names for the expected output.
 
 **Notes:**
 
