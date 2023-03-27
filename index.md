@@ -144,32 +144,36 @@ systems or distributed systems.
 <tr>
 <td markdown="span">11</td>
 <td markdown="span">Spark and distributed analytics</td>
-<th markdown="1">Programming Homework 2 released (Link TBD)</th>
+<th></th>
 </tr>
 <tr>
 <td markdown="span">12</td>
 <td markdown="span">Caching (<a href="https://www.dropbox.com/s/5sggarpl2kx1oxn/Topic%207%20-%20Caching.pdf?dl=0">Slides</a>)</td>
-<th></th>
+<th markdown="1">Programming Homework 2 released (April 6, 2023) (Link TBD)</th>
 </tr>
 <tr>
 <td markdown="span">13</td>
 <td markdown="span">Machine Learning (<a href="https://www.dropbox.com/s/ub35qceqpbo7c31/Topic%208%20-%20Systems%20for%20Machine%20Learning.pdf?dl=0">Slides</a>)</td>
-<th markdown="1">Written Homework 2 out</th>
 <th></th>
 </tr>
 <tr>
 <td markdown="span">14</td>
 <td markdown="span">Security (<a href="https://www.dropbox.com/s/9rz9n9gvhw2iajq/Topic%209%20-%20Data%20Security%20and%20Compliance.pdf?dl=0">Slides</a>)</td>
-<th></th>
+<th markdown="1">Written Homework 2 released (April 20, 2023)</th>
 </tr>
 <tr>
 <td markdown="span">15</td>
 <td markdown="span">Data Quality and Review</td>
-<th markdown="1">Programming Homework 2 due, Written Homework 2 due (April 27, 2023 4:59:59PM)</th>
+<th markdown="1">Programming Homework 2 due (April 27, 2023 4:59:59PM)</th>
 </tr>
 <tr>
 <td markdown="span">16</td>
-<td markdown="span">Final Exam: May 4</td>
+<td markdown="span"></td>
+<th markdown="1">Written Homework 2 due (May 4, 2023 4:59:59PM)</th>
+</tr>
+<tr>
+<td markdown="span">17</td>
+<td markdown="span">Final Exam (May 11, 2023)</td>
 <th></th>
 </tr>
 </tbody>
