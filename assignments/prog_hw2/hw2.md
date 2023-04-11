@@ -2,7 +2,7 @@
 
 Gain a hands-on understanding of Google Cloud Dataproc, Apache Spark, Spark SQL, and Spark Streaming over HDFS.
 
-Due: **April 27, 2023 4:59:59 PM**   
+Due: **May 1, 2023 4:59:59 PM**   
 
 ## Overview
 
