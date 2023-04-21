@@ -106,9 +106,9 @@ sudo hdfs dfs -get gs://csee4121-s23/spark-xml_2.12-0.16.0.jar /usr/lib/spark/ja
 
 Now you can go to the __Web Interfaces__ tab and use the `Jupyter` link to open Jupyter Notebook Interface. 
 
-In this task, we provide you a big Wikipedia database in XML format. It can be found at `/enwiki_whole.xml` in your HDFS.
+In this task, we provide you a big Wikipedia database in XML format. It can be found at `/wiki-whole.xml` in your HDFS.
 
-This input file is very big (~30 GB) and you have to use a distributed file system like HDFS to handle it. We have also provided a smaller file `/enwiki_small.xml` for debugging purposes. 
+This input file is very big (~30 GB) and you have to use a distributed file system like HDFS to handle it. We have also provided a smaller file `/wiki-small.xml` for debugging purposes. 
 
 The XML files are structured as follow:
 
@@ -153,12 +153,12 @@ You could refer to [this](https://cloud.google.com/dataproc/docs/guides/submit-j
 
 #### Task 1 Output
 
-Write a Spark program to read in the `/enwiki_small.xml` file as a Dataframe and use the `printSchema()` function to print its schema. You can start from something like the following:
+Write a Spark program to read in the `/wiki-small.xml` file as a Dataframe and use the `printSchema()` function to print its schema. You can start from something like the following:
 
 ```python
 from pyspark.sql import SparkSession
 spark = SparkSession.builder.getOrCreate()
-df = spark.read.format('xml').options(rowTag='page').load('hdfs:/enwiki_small.xml')
+df = spark.read.format('xml').options(rowTag='page').load('hdfs:/wiki-small.xml')
 ```
 
 Copy the outputted schema to a __separate txt file__ named `schema.txt`. (6 points)
@@ -210,25 +210,26 @@ Set the **Spark driver memory** to 1GB and the **Spark executor memory** to 5GB 
 
 For the following questions you will need to use the .xmls as the input file, and output columns into a CSV file. Separate the columns with a `Tab`.
 
-**Question 2.**  (2 points) Use `enwiki_test.xml` as input and run the program locally on a __Single Node__ cluster using 4 cores. Include your screenshot of the dataproc job. What is the completion time of the task?
+**Question 2.**  (2 points) Use `wiki-test.xml` as input and run the program locally on a __Single Node__ cluster using 4 cores. Include your screenshot of the dataproc job. What is the completion time of the task?
 
-**Question 3.** (2 points) Use `enwiki_test.xml` as input and run the program under HDFS inside a __3 node cluster__ (2 worker nodes).  Include your screenshot of the dataproc job. Is the performance getting better or worse in terms of completion time? Briefly explain.
+**Question 3.** (2 points) Use `wiki-test.xml` as input and run the program under HDFS inside a __3 node cluster__ (2 worker nodes).  Include your screenshot of the dataproc job. Is the performance getting better or worse in terms of completion time? Briefly explain.
 
 **Question 4.** (2 points) For this question, change the default block size in HDFS to be __64MB__ and repeat Question 3. Include your screenshot of the dataproc job. Record the run time. Is the performance getting better or worse in terms of completion time? Briefly explain.
 
-Set the **Spark driver memory** to 5GB and the **Spark executor memory** to 5GB to answer Question 5-7. Use this configuration across the entire assignment whenever you generate a web graph from `enwiki_whole.xml`.
+Set the **Spark driver memory** to 5GB and the **Spark executor memory** to 5GB to answer Question 5-7. Use this configuration across the entire assignment whenever you generate a web graph from `wiki-whole.xml`.
 
-**Question 5.** (2 points) Use `enwiki_whole.xml` as input and run the program under HDFS inside the Spark cluster you deployed. Record the completion time. Now, kill one of the worker nodes immediately. You could kill one of the worker nodes by going to the __VM Instances__ tab on the Cluster details page and clicking on the name of one of the workers. Then click the STOP button. Record the completion time. Does the job still finish? Do you observe any difference in the completion time? Briefly explain your observations. Include your screenshot of the dataproc jobs.
+**Question 5.** (2 points) Use `wiki-whole.xml` as input and run the program under HDFS inside the Spark cluster you deployed. Record the completion time. Now, kill one of the worker nodes immediately. You could kill one of the worker nodes by going to the __VM Instances__ tab on the Cluster details page and clicking on the name of one of the workers. Then click the STOP button. Record the completion time. Does the job still finish? Do you observe any difference in the completion time? Briefly explain your observations. Include your screenshot of the dataproc jobs.
 
 ![Stop worker](./pics/StopVM.jpeg)
 
-**Question 6.** (2 points) Only for this question, change the __replication factor__ of `enwiki_whole.xml` to 1 and repeat Question 5 without killing one of the worker nodes.  Include your screenshot of the dataproc job. Do you observe any difference in the completion time? Briefly explain.
+**Question 6.** (2 points) Only for this question, change the __replication factor__ of `wiki-whole.xml` to 1 and repeat Question 5 without killing one of the worker nodes.  Include your screenshot of the dataproc job. Do you observe any difference in the completion time? Briefly explain.
 
 **Question 7.** (2 points) Only for this question, change the __default block size__ in HDFS to be __64MB__ and repeat Question 5 without killing one of the worker nodes. Record the run time. Include your screenshot of the dataproc job. Is the performance getting better or worse in terms of completion time? Briefly explain.
 
 #### Task 2 Output
 
-Besides answering these questions,  you also need to submit the code and output. You need to use `enwiki_small.xml` as the input file, and sort both output columns in ascending order and save the first 10 rows into a CSV file and name it `task2.csv`. Separate the columns with a `Tab`. (28 points for code + output, 10 points for correctness of the approach)
+Besides answering these questions,  you also need to submit the code and output. You need to use `wiki-small.xml` as the input file, and sort both output columns in ascending order and save the first 10 rows into a CSV file and name it `task2.csv`. Separate the columns with a `Tab`. Do NOT save the column names / headers as part of the CSV file (this is the default option, but please double check). (28 points for code + output, 10 points for correctness of the approach)
+
 
 ### Task 3: Spark PageRank (40 Points)
 
@@ -243,13 +244,13 @@ The output should be a CSV file containing two columns:
 The first column is the article and the other column describes its rank.
 Separate the columns with a `Tab`.
 
-Set the Spark driver memory to 5GB and the Spark executor memory to 5GB whenever you run your PageRank program. Write a script to first run Task 2, and then run Task 3 using the CSV output generated by Task 2, and answer the following questions. Always use 10 iterations for the PageRank program. When running Task 2, use `enwiki_whole.xml` as input.
+Set the Spark driver memory to 5GB and the Spark executor memory to 5GB whenever you run your PageRank program. Write a script to first run Task 2, and then run Task 3 using the CSV output generated by Task 2, and answer the following questions. Always use 10 iterations for the PageRank program. When running Task 2, use `wiki-whole.xml` as input.
 
-**Question 8.** (2 points)  Use your output from Task 2 with `enwiki_whole.xml` as input, run Task 3 using a 3 node cluster (2 worker nodes). Include your screenshot of the dataproc job. What is the completion time of the task?
+**Question 8.** (2 points)  Use your output from Task 2 with `wiki-whole.xml` as input, run Task 3 using a 3 node cluster (2 worker nodes). Include your screenshot of the dataproc job. What is the completion time of the task?
 
 #### Task 3 Output
 
-To submit the code part of the assignment you will need to use `enwiki_small.xml` as the input file for Task 2 and then run your code for Task 3, and sort both output columns for Task 3 in ascending order and save the first 10 rows into a CSV file and name it `task3.csv`. Separate the columns with a `Tab`. (28 points for code + output, 10 points for correctness of the approach)
+To submit the code part of the assignment you will need to use `wiki-small.xml` as the input file for Task 2 and then run your code for Task 3. Sort the output by the PageRank in DESCENDING order, i.e., the output should contain the title and PageRank of the articles with the top 10 scores. Save the first 10 rows as a .csv file, separating the columns with a Tab (i.e., sep='\t'). Name it task3.csv. Do NOT save the column names / headers as part of the CSV file (this is the default option, but please double check). (28 points for code + output, 10 points for correctness of the approach)
 
 ## Submission Instructions
 
@@ -272,7 +273,7 @@ Inside each folder, in addition to the Jupyter notebook and Python files, there 
 
 You also need to provide a `config` file which describes configurations or additional step you did to run the **following 3 tasks on a single Spark node **
 
-1. Use the program in Task 2 to take "*enwiki_small.xml*" as input to generate the graph.
+1. Use the program in Task 2 to take "*wiki-small.xml*" as input to generate the graph.
 2. Use the program in Task 3 to take the graph you just generated and output a rank list of the articles in the dataset.
 
 Try to be clear about the instructions to run these steps. The purpose of doing this is to check if your program does what we mentioned in the spec. Do not worry whether your program has the lowest completion time.
@@ -298,6 +299,8 @@ UNI-1_UNI-2_assignment2.zip
     ├── task3.ipynb
     └── task3config.txt
 ```
+
+**IMPORTANT** Please double-check that your submission files follows the format as specified on the Ed post here: https://edstem.org/us/courses/35294/discussion/2992313
 
 ## Acknowledgements
 
