@@ -164,7 +164,7 @@ systems or distributed systems.
 <tr>
 <td markdown="span">15</td>
 <td markdown="span">Data Quality and Review</td>
-<th markdown="1">Programming Homework 2 due (May 1, 2023 4:59:59PM)</th>
+<th markdown="1">Programming Homework 2 due (May 2, 2023 4:59:59PM)</th>
 </tr>
 <tr>
 <td markdown="span">16</td>
