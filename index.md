@@ -169,7 +169,7 @@ systems or distributed systems.
 <tr>
 <td markdown="span">16</td>
 <td markdown="span"></td>
-<th markdown="1">Written Homework 2 due (May 4, 2023 4:59:59PM)</th>
+<th markdown="1">Written Homework 2 due (May 6, 2023 4:59:59PM, hard deadline May 7, 2023 4:59:59PM)</th>
 </tr>
 <tr>
 <td markdown="span">17</td>
